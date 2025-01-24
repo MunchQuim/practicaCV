@@ -21,7 +21,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("http://munchquim.duckdns.org:2727/api2.php");
+        const res = await fetch("https://leon-scientific-biology-vot.trycloudflare.com/api2.php");
         
         const result = await res.json();  // Espera a que se resuelva la promesa y convierte la respuesta en JSON
         /* console.log(result.experienciasLaborales); */
