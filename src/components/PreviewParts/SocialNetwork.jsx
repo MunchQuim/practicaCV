@@ -36,7 +36,7 @@ const Footer = ({ socialNetworks }) => {
         <SocialNetwork networks={socialNetworks} />
       </div>
       <div className="text-center py-4">
-        <p>&copy; 2025 Tu Nombre. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Joaquim Pineda. Todos los derechos reservados.</p>
       </div>
     </footer>
   );
