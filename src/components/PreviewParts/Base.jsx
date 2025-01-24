@@ -8,8 +8,7 @@ const Base = ({ photo, name, lastName, aboutMe }) => {
             <div className="w-full md:w-1/3 flex justify-center">
                 <div className="w-48 h-48 md:w-64 md:h-64 rounded-lg overflow-hidden border-4 border-white shadow-lg">
                     <img
-                        src={'./src/assets/'+photo} // Usando la prop 'photo' para la URL de la imagen
-                        
+                        src={'/public/assets/' + photo} // Usando la prop 'photo' para la URL de la imagen
                         alt="Foto de perfil"
                         className="w-full h-full object-cover"
                     />
